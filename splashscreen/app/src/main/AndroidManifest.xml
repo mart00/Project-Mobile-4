@@ -10,12 +10,31 @@
         android:supportsRtl="true"
         android:theme="@style/SplashTheme">
         <activity
-            android:name=".SplashActivity"
-            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+            android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:background="@color/colorPrimaryDark">
+        </activity>
+        <activity
+            android:name=".OverActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:background="@color/colorPrimaryDark">
+        </activity>
+        <activity
+            android:name=".ScoreActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:background="@color/colorPrimaryDark">
+        </activity>
+        <activity
+            android:name=".CategorieActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+            android:background="@color/colorPrimaryDark">
         </activity>
     </application>
 

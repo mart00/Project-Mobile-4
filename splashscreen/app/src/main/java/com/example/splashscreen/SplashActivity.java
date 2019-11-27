@@ -13,7 +13,7 @@ public class SplashActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         if (!splashLoaded) {
-            setContentView(R.layout.activity_main);
+            setContentView(R.layout.activity_splash);
             int secondsDelayed = 1;
             new Handler().postDelayed(new Runnable() {
                 public void run() {
@@ -23,8 +23,9 @@ public class SplashActivity extends Activity {
             }, secondsDelayed * 1500);
 
             splashLoaded = true;
-        } else {
-            Intent goToMainActivity = new Intent(SplashActivity.this, MainActivity.class);
+        }
+        else {
+            Intent goToMainActivity = new Intent(this, MainActivity.class);
             goToMainActivity.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
             startActivity(goToMainActivity);
             finish();
