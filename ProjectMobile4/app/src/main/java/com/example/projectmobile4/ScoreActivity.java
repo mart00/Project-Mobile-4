@@ -3,8 +3,6 @@ package com.example.projectmobile4;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.example.splashscreen.R;
-
 public class ScoreActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
