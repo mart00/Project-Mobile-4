@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent int1= new Intent(MainActivity.this, OefenActivity.class);
+                Intent int1= new Intent(MainActivity.this, CategorieActivity.class);
                 String Versie = "oefen";
                 int1.putExtra("Versie", Versie);
                 startActivity(int1);

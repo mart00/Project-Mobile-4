@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d7bf173-4c71-4ca2-8fa4-2c7a99892939" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_bidsprinkhaan.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_bij.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_bloedzuiger.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_larve.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_mier.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_mug.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_naaktslak.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_regenworm.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_rups.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_slak.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_spin.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_sprinkhaan.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_vlieg.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_vlinder.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/raw/insecten_wesp.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectMobile.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/java/com/example/projectmobile4/CategorieActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/java/com/example/projectmobile4/CategorieActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/java/com/example/projectmobile4/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/java/com/example/projectmobile4/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/java/com/example/projectmobile4/OefenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/java/com/example/projectmobile4/OefenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/Quiz_Data_Dieren 01.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_egel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_egel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_ezel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_ezel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_geit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_geit.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_hond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_hond.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_jakhals.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_jakhals.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kat.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kikker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kikker.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kip.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kip.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_koe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_koe.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_konijn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_konijn.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_muis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_muis.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_paard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_paard.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_schaap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_schaap.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_vis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_vis.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_vogel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_vogel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_abrikoos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_abrikoos.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_appel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_appel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_bananen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_bananen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_cactusvijg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_cactusvijg.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_citroen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_citroen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_dadel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_dadel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_druiven.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_druiven.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_granaatappel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_granaatappel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_honingmeloen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_honingmeloen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_peer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_peer.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_perzik.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_perzik.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_pruim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_pruim.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_sinaasappel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_sinaasappel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_vijg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_vijg.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_watermeloen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_watermeloen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_bidsprinkhaan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_bidsprinkhaan.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_bij.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_bij.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_bloedzuiger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_bloedzuiger.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_larve.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_larve.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_mier.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_mier.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_mug.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_mug.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_naaktslak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_naaktslak.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_regenworm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_regenworm.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_rups.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_rups.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_slak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_slak.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_spin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_spin.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_sprinkhaan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_sprinkhaan.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_vlieg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_vlieg.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_vlinder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_vlinder.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_wesp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_wesp.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_aardappel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_aardappel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_bonen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_bonen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_doperwten.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_doperwten.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_kikkererwten.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_kikkererwten.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_knoflook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_knoflook.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_linzen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_linzen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_mais.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_mais.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_olijven.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_olijven.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_paprika.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_paprika.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_pompoen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_pompoen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_spinazie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_spinazie.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_tomaat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_tomaat.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_tuinbonen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_tuinbonen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_ui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_ui.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_wortel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_wortel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_duif.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_duif.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_gekko.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_gekko.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_haas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_haas.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_hyena.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_hyena.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_kameleon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_kameleon.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_patrijs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_patrijs.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_schildpad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_schildpad.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_schorpioen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_schorpioen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_slang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_slang.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_stekelvarken.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_stekelvarken.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_uil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_uil.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_vos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_vos.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_wildzwijn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_wildzwijn.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_windhond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_windhond.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_zwaluw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_zwaluw.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_boter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_boter.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_brood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_brood.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_eieren.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_eieren.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_honing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_honing.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_koekjes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_koekjes.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_koffie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_koffie.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_melk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_melk.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_olie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_olie.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_suiker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_suiker.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_thee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_thee.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_vissen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_vissen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_vlees.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_vlees.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_water.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_water.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_yoghurt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_yoghurt.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_zout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_zout.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_broek.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_broek.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_handschoenen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_handschoenen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_jas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_jas.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_jurk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_jurk.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_laarzen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_laarzen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_muts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_muts.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_onderhemd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_onderhemd.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_overhemd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_overhemd.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_riem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_riem.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_rok.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_rok.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_schoenen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_schoenen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_sjaal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_sjaal.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_slippers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_slippers.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_sokken.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_sokken.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_trui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_trui.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_donder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_donder.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_halvemaan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_halvemaan.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_herfst.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_herfst.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_lente.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_lente.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_maan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_maan.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_mist.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_mist.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_regen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_regen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_regenboog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_regenboog.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_sneeuw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_sneeuw.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_ster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_ster.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_wind.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_wind.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_winter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_winter.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_wolken.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_wolken.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_zomer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_zomer.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_zon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_zon.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_blauw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_blauw.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_bont.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_bont.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_bruin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_bruin.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_geel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_geel.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_grijs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_groen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_groen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_oranje.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_oranje.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_paars.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_paars.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_rood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_rood.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_wit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_wit.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_zwart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_zwart.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_egel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_ezel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_geit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_hond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_jakhals.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_kat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_kikker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_kip.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_koe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_konijn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_muis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_paard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_schaap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_vis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_vogel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/layout/activity_categorie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/layout/activity_categorie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/layout/activity_oefen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/layout/activity_oefen.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_26" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1215" />
+    <option name="y" value="120" />
+    <option name="width" value="975" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d7bf173-4c71-4ca2-8fa4-2c7a99892939" name="Default Changelist" comment="" />
+      <created>1575885087124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575885087124</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16126901" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/OverActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/ScoreActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/SplashActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/CategorieActivity.java" />
+  </component>
+</project>

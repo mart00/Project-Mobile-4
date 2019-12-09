@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
     <TextView
         android:id="@+id/text_view_id"
         android:layout_width="wrap_content"
@@ -13,10 +14,18 @@
         android:id="@+id/versie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginStart="179dp"
-        android:layout_marginTop="291dp"
         android:text="@string/Categorie" />
-</RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="512dp" />
+
+    <Button
+        android:id="@+id/buttonCategorie"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:onClick="Select"
+        android:text="Selecteer" />
+</LinearLayout>
