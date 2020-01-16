@@ -30,5 +30,10 @@
         android:layout_height="wrap_content"
         android:onClick="Score"
         android:text="Score" />
+    <Button
+        android:id="@+id/AddData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AddData" />
 
 </LinearLayout>

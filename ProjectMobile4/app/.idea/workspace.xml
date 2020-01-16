@@ -1,186 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5d7bf173-4c71-4ca2-8fa4-2c7a99892939" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectMobile.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/java/com/example/projectmobile4/OefenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/java/com/example/projectmobile4/OefenActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/Quiz_Data_Dieren 01.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_egel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_egel.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_ezel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_ezel.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_geit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_geit.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_hond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_hond.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_jakhals.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_jakhals.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kat.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kikker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kikker.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kip.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_kip.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_koe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_koe.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_konijn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_konijn.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_muis.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_muis.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_paard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_paard.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_schaap.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_schaap.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_vis.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_vis.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_vogel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/01. Dieren 01/dieren01_vogel.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_abrikoos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_abrikoos.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_appel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_appel.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_bananen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_bananen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_cactusvijg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_cactusvijg.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_citroen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_citroen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_dadel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_dadel.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_druiven.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_druiven.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_granaatappel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_granaatappel.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_honingmeloen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_honingmeloen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_peer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_peer.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_perzik.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_perzik.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_pruim.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_pruim.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_sinaasappel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_sinaasappel.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_vijg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_vijg.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_watermeloen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/02. Fruit/fruit_watermeloen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_bidsprinkhaan.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_bij.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_bloedzuiger.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_larve.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_mier.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_mug.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_naaktslak.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_regenworm.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_rups.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_slak.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_spin.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_sprinkhaan.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_vlieg.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_vlinder.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/03. Insecten/insecten_wesp.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_aardappel.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_bonen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_doperwten.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_kikkererwten.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_knoflook.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_linzen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_mais.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_olijven.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_paprika.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_pompoen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_spinazie.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_tomaat.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_tuinbonen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_ui.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/04. Groente/groente_wortel.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_duif.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_gekko.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_haas.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_hyena.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_kameleon.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_patrijs.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_schildpad.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_schorpioen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_slang.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_stekelvarken.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_uil.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_vos.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_wildzwijn.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_windhond.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/05. Dieren 02/dieren02_zwaluw.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_boter.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_brood.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_eieren.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_honing.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_koekjes.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_koffie.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_melk.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_olie.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_suiker.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_thee.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_vissen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_vlees.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_water.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_yoghurt.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/06. Eten/eten_zout.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_broek.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_handschoenen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_jas.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_jurk.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_laarzen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_muts.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_onderhemd.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_overhemd.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_riem.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_rok.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_schoenen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_sjaal.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_slippers.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_sokken.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/07. Kleding/kleding_trui.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_donder.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_halvemaan.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_herfst.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_lente.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_maan.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_mist.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_regen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_regenboog.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_sneeuw.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_ster.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_wind.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_winter.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_wolken.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_zomer.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/08. Weer/weer_zon.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_blauw.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_bont.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_bruin.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_geel.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_groen.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_oranje.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_paars.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_rood.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_wit.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/09. Kleuren/kleuren_zwart.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_egel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_ezel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_geit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_hond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_jakhals.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_kat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_kikker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_kip.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_koe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_konijn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_muis.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_paard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_schaap.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_vis.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/drawable/dieren01_vogel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/layout/activity_oefen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectMobile4/app/src/main/res/layout/activity_oefen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/DatabaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ObjectCategorie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OnClickListenerAddData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OnLongClickListenerAddData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/TableControllerCategorieen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ViewPagerAdapterCategorie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ViewPagerAdapterOefen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/test_database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/image_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/input_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/test_database.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/CategorieActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/CategorieActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OefenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OefenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_oefen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_oefen.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,10 +38,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_26" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -201,52 +49,168 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/DatabaseHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/test_database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ViewPagerAdapterOefen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/CategorieActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <element signature="method#onCreate#0;class#CategorieActivity#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OefenActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ViewPagerAdapterCategorie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Main</find>
+      <find>itemNaam</find>
+      <find>naamItem</find>
+      <find>setT</find>
+      <find>viewpager</find>
+      <find>contex</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/TableControllerCategorieen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ObjectCategorie.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/input_form.xml" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OnClickListenerAddData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OnLongClickListenerAddData.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/MainActivity.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/test_database.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_oefen.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/image_view.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OefenActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ViewPagerAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/CategorieActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ViewPagerAdapterCategorie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/DatabaseHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/test_database.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ViewPagerAdapterOefen.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+        <option value="$PROJECT_DIR$/.idea/runConfigurations.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
@@ -256,14 +220,54 @@
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_5_2_jar.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1215" />
-    <option name="y" value="122" />
-    <option name="width" value="975" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="525" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -271,15 +275,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project Mobile 4" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Project Mobile 4" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Project Mobile 4" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="projectmobile4" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project Mobile 4" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Project Mobile 4" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-12-18T10:20:17.725Z" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,7 +342,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -368,70 +409,383 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3295302" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.3286119" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21208054" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="5" weight="0.21246459" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21208054" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="5" visible="true" weight="0.21246459" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/OverActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/OverActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/ScoreActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/SplashActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/CategorieActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/input_form.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/ScoreActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="527">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/SplashActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/SpeelActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile/CategorieActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_score.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#388#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/view/LayoutInflater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ObjectCategorie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OnClickListenerAddData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OnLongClickListenerAddData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OverActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ScoreActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/TableControllerCategorieen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="1009" selection-start-line="1009" selection-end-line="1009" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/PagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_categorie.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/image_view.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/test_database.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_oefen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/DatabaseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/test_database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/OefenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ViewPagerAdapterCategorie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/CategorieActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="method#onCreate#0;class#CategorieActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/projectmobile4/ViewPagerAdapterOefen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -16,6 +16,7 @@ public class MainActivity extends Activity {
         Button Speel=(Button)findViewById(R.id.Speel);
         Button Over=(Button)findViewById(R.id.Over);
         Button Score=(Button)findViewById(R.id.Score);
+        Button AddData=(Button)findViewById(R.id.AddData);
 
         Oefen.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,6 +51,14 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
 
                 Intent int1= new Intent(MainActivity.this, ScoreActivity.class);
+                startActivity(int1);
+            }
+        });
+        AddData.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent int1= new Intent(MainActivity.this, test_database.class);
                 startActivity(int1);
             }
         });

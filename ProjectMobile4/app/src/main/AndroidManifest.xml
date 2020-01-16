@@ -40,6 +40,10 @@
             android:name="com.example.projectmobile4.SpeelActivity"
             android:background="@color/colorPrimaryDark">
         </activity>
+        <activity
+            android:name="com.example.projectmobile4.test_database"
+            android:background="@color/colorPrimaryDark">
+        </activity>
     </application>
 
 </manifest>
