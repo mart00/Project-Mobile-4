@@ -1,8 +1,6 @@
 package com.example.projectmobile4;
 
 import android.content.Context;
-import android.content.res.Resources;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,15 +13,14 @@ import androidx.viewpager.widget.PagerAdapter;
 
 public class ViewPagerAdapterOefen extends PagerAdapter {
     private LayoutInflater layoutInflater;
-    private DatabaseHandler thedb;
+    public DatabaseHandler thedb;
     Context context;
 
     public ViewPagerAdapterOefen(Context context) {
         this.context = context;
-        DatabaseHandler doot = new DatabaseHandler(context);
+        DatabaseHandler thedb = new DatabaseHandler(context);
     }
     private Integer[] images = {
-//            Integer.valueOf(thedb.getRoute(1)),
             R.drawable.dieren01_egel,
             R.drawable.dieren01_ezel,
             R.drawable.dieren01_geit,
@@ -40,6 +37,17 @@ public class ViewPagerAdapterOefen extends PagerAdapter {
             R.drawable.dieren01_vis,
             R.drawable.dieren01_vogel,
     };
+//    private Integer[] images = {
+//            Integer.valueOf(thedb.getResource(1)),
+//            Integer.valueOf(thedb.getRoute(1)),
+//            Integer.valueOf(thedb.getRoute(1)),
+//            Integer.valueOf(thedb.getRoute(1)),
+//            Integer.valueOf(thedb.getRoute(1)),
+//            Integer.valueOf(thedb.getRoute(1)),
+//            Integer.valueOf(thedb.getRoute(1)),
+//            Integer.valueOf(thedb.getRoute(1))
+//
+//    };
 //    private String[] namen = {
 //            doot.getName(1),
 //            thedb.getName(2),
@@ -58,7 +66,7 @@ public class ViewPagerAdapterOefen extends PagerAdapter {
 //            thedb.getName(15)
 //    };
     private String[] namen = {
-            "Egel",
+                     "Egel",
                     "Ezel",
                     "Geit",
                     "Hond",

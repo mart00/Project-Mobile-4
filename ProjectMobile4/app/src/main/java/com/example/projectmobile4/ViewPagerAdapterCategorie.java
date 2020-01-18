@@ -57,20 +57,21 @@ public class ViewPagerAdapterCategorie extends PagerAdapter {
 
     @NonNull
     @Override
-    public Object instantiateItem(@NonNull ViewGroup container, int postition){
+    public Object instantiateItem(@NonNull ViewGroup container, int position){
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(R.layout.image_view,null);
 
         ImageView imageView = view.findViewById(R.id.imageView);
-        imageView.setImageResource(GalImages[postition]);
+        imageView.setImageResource(GalImages[position]);
 
         TextView textView = view.findViewById(R.id.naamItem);
-        textView.setText(categorieNaam[postition]);
+        textView.setText(categorieNaam[position]);
 
         container.addView(view);
 
         return view;
     }
+
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position,@NonNull Object object){
 

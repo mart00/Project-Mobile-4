@@ -54,14 +54,14 @@ public class MainActivity extends Activity {
                 startActivity(int1);
             }
         });
-        AddData.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent int1= new Intent(MainActivity.this, test_database.class);
-                startActivity(int1);
-            }
-        });
+//        AddData.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                Intent int1= new Intent(MainActivity.this, test_database.class);
+//                startActivity(int1);
+//            }
+//        });
     }
     public void Oefen(){
         Intent goToOefenActivity = new Intent(this, CategorieActivity.class);
