@@ -51,45 +51,19 @@ public class DatabaseHandler  {
         String str = c.getString(c.getColumnIndex("categorie"));
         return str;
     }
-//    public String getCategorie(long id){
-//        String getCategorie = "not found";
-//        String whereclause = "ID=?";
-//        String[] whereargs = new String[]{String.valueOf(id)};
-//        Cursor cursor = database.query(,null,whereclause,whereargs,null,null,null);
-//        if (cursor.moveToFirst()) {
-//            getCategorie = cursor.getString(cursor.getColumnIndex(COL4));
-//        }
-//        cursor.close();
-//        db.close();
-//        return getCategorie;
-//    }
-//    public String getRoute(long id) {
-//
-//        String getroute = "not found";
-//        SQLiteDatabase db = this.getWritableDatabase();
-//        String whereclause = "ID=?";
-//        String[] whereargs = new String[]{String.valueOf(id)};
-//        Cursor cursor = db.query(TABLE_NAME,null,whereclause,whereargs,null,null,null);
-//        if (cursor.moveToFirst()) {
-//            getroute = cursor.getString(cursor.getColumnIndex(COL4));
-//        }
-//        cursor.close();
-//        db.close();
-//        return getroute;
-//    }
-//    public String getName(long id) {
-//
-//        String itemNaam = "not found";
-//        SQLiteDatabase db = this.getWritableDatabase();
-//        String whereclause = "ID=?";
-//        String[] whereargs = new String[]{String.valueOf(id)};
-//        Cursor cursor = db.query(TABLE_NAME,null,whereclause,whereargs,null,null,null);
-//        if (cursor.moveToFirst()) {
-//            itemNaam = cursor.getString(cursor.getColumnIndex(COL3));
-//        }
-//        cursor.close();
-//        db.close();
-//        return itemNaam;
-//    }
+    public String getRoute(String Tabel, Integer id) {
+        SqliteHandeler thedb = new SqliteHandeler(context);
+        SQLiteDatabase database = thedb.getWritableDatabase();
+        Cursor c = database.rawQuery("SELECT route FROM '"+Tabel+"' WHERE id = '"+id+"'", null);
+        c.moveToPosition(0);
+        return c.getString(c.getColumnIndex(thedb.COL4));
+    }
+    public String getNamen(String Tabel, Integer id) {
+        SqliteHandeler thedb = new SqliteHandeler(context);
+        SQLiteDatabase database = thedb.getWritableDatabase();
+        Cursor c = database.rawQuery("SELECT naam FROM '"+Tabel+"' WHERE id = '"+id+"'", null);
+        c.moveToPosition(0);
+        return c.getString(c.getColumnIndex(thedb.COL3));
+    }
 }
 

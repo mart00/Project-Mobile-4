@@ -1,9 +1,11 @@
 package com.example.projectmobile4;
 
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -11,83 +13,42 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
+import java.util.ArrayList;
+
 public class ViewPagerAdapterOefen extends PagerAdapter {
     private LayoutInflater layoutInflater;
     public DatabaseHandler thedb;
     Context context;
-
-    public ViewPagerAdapterOefen(Context context) {
+    private final String[] route;
+    private final String[] namen;
+//    private final String[] mp3;
+    public ViewPagerAdapterOefen(Context context, String[] route, String[] namen ) { //String[] mp3
         this.context = context;
+        this.route = route;
+        this.namen = namen;
+//        this.mp3 = mp3;
         DatabaseHandler thedb = new DatabaseHandler(context);
     }
-    private Integer[] images = {
-            R.drawable.dieren01_egel,
-            R.drawable.dieren01_ezel,
-            R.drawable.dieren01_geit,
-            R.drawable.dieren01_hond,
-            R.drawable.dieren01_jakhals,
-            R.drawable.dieren01_kat,
-            R.drawable.dieren01_kikker,
-            R.drawable.dieren01_kip,
-            R.drawable.dieren01_koe,
-            R.drawable.dieren01_konijn,
-            R.drawable.dieren01_muis,
-            R.drawable.dieren01_paard,
-            R.drawable.dieren01_schaap,
-            R.drawable.dieren01_vis,
-            R.drawable.dieren01_vogel,
+    String[] categorieNaam = {
+            "dieren01",
+            "dieren02",
+            "eten",
+            "fruit",
+            "groente",
+            "insecten",
+            "kleding",
+            "kleuren",
+            "weer"
     };
-//    private Integer[] images = {
-//            Integer.valueOf(thedb.getResource(1)),
-//            Integer.valueOf(thedb.getRoute(1)),
-//            Integer.valueOf(thedb.getRoute(1)),
-//            Integer.valueOf(thedb.getRoute(1)),
-//            Integer.valueOf(thedb.getRoute(1)),
-//            Integer.valueOf(thedb.getRoute(1)),
-//            Integer.valueOf(thedb.getRoute(1)),
-//            Integer.valueOf(thedb.getRoute(1))
-//
-//    };
-//    private String[] namen = {
-//            doot.getName(1),
-//            thedb.getName(2),
-//            thedb.getName(3),
-//            thedb.getName(4),
-//            thedb.getName(5),
-//            thedb.getName(6),
-//            thedb.getName(7),
-//            thedb.getName(8),
-//            thedb.getName(9),
-//            thedb.getName(10),
-//            thedb.getName(11),
-//            thedb.getName(12),
-//            thedb.getName(13),
-//            thedb.getName(14),
-//            thedb.getName(15)
-//    };
-    private String[] namen = {
-                     "Egel",
-                    "Ezel",
-                    "Geit",
-                    "Hond",
-                    "Jakhals",
-                    "Kat",
-                    "Kikker",
-                    "Kip",
-                    "Koe",
-                    "Konijn",
-                    "Muis",
-                    "Paard",
-                    "Schaap",
-                    "Vis",
-                    "Vogel"
 
-};
+    public String[] getCategorieNaam() {
+        return categorieNaam;
+    }
 
     @Override
     public int getCount(){
         if (namen == null) return 0;
-        return images.length;
+        return categorieNaam.length;
     }
 
     @Override
@@ -97,15 +58,45 @@ public class ViewPagerAdapterOefen extends PagerAdapter {
 
     @NonNull
     @Override
-    public Object instantiateItem(@NonNull ViewGroup container, int postition){
+    public Object instantiateItem(@NonNull ViewGroup container, int postition) {
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = layoutInflater.inflate(R.layout.image_view,null);
+        View view = layoutInflater.inflate(R.layout.image_view, null);
 
         ImageView imageView = view.findViewById(R.id.imageView);
-        imageView.setImageResource(images[postition]);
+        int[] inte = new int[route.length];
+        int[] routes = new int[route.length];
+        int resourceId;
+        for (int i = 0; i < route.length; i++){
+            try {
+                resourceId = context.getResources().getIdentifier(route[i],null,context.getPackageName());
+                routes[i] = resourceId;
+            } catch(NumberFormatException nfe) {
+                System.out.println("Could not parse " + nfe);
+            }
+         }
+        imageView.setImageResource(routes[postition]);
 
         TextView textView = view.findViewById(R.id.naamItem);
-        textView.setText(namen[postition]);
+        String[] namenn = new String[namen.length];
+        for (int i = 0; i < namen.length; i++){
+            namenn[i] = namen[i];
+        }
+        textView.setText(namenn[postition]);
+
+//        Button btn_play = view.findViewById(R.id.mp3);
+//        final String song = mp3[postition];
+//        btn_play.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                try {
+//                    if (mp != null && mp.isPlaying()){
+//                        mp.stop();
+//                        mp.release();
+//                    }
+//                    mp = MediaPlayer.create(this, song);
+//                }
+//            }
+//        });
 
         container.addView(view);
 

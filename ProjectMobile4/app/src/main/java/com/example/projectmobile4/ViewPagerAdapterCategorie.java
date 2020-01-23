@@ -12,6 +12,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 
 public class ViewPagerAdapterCategorie extends PagerAdapter {
     static Resources res = null;
@@ -22,27 +25,32 @@ public class ViewPagerAdapterCategorie extends PagerAdapter {
 
         this.context = context;
     }
+
+    public String[] getCategorieNaam() {
+        return categorieNaam;
+    }
     String[] categorieNaam = {
-            "dieren01",
-            "fruit",
-            "insecten",
-            "groente",
-            "dieren02",
-            "eten",
-            "kleding",
-            "weer",
-            "kleuren",
+        "dieren01",
+        "dieren02",
+        "eten",
+        "fruit",
+        "groente",
+        "insecten",
+        "kleding",
+        "kleuren",
+        "weer"
     };
     private int[] GalImages = new int[] {
             R.drawable.dieren01_kat,
-            R.drawable.fruit_appel,
-            R.drawable.insecten_bij,
-            R.drawable.groente_doperwten,
             R.drawable.dieren02_schildpad,
             R.drawable.eten_koekjes,
+            R.drawable.fruit_appel,
+            R.drawable.groente_doperwten,
             R.drawable.kleding_trui,
-            R.drawable.weer_zon,
-            R.drawable.kleuren_groen
+            R.drawable.kleuren_groen,
+            R.drawable.insecten_bij,
+            R.drawable.weer_zon
+
     };
     @Override
     public int getCount(){
