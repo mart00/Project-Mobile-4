@@ -52,6 +52,13 @@ public class Database {
         c.moveToPosition(0);
         return c.getString(c.getColumnIndex(Sqlite.COL5));
     }
+    public String getAmazigh(String Tabel, Integer id) {
+        Sqlite thedb = new Sqlite(context);
+        SQLiteDatabase database = thedb.getWritableDatabase();
+        Cursor c = database.rawQuery("SELECT amazigh FROM '"+Tabel+"' WHERE id = '"+id+"'", null);
+        c.moveToPosition(0);
+        return c.getString(c.getColumnIndex(thedb.COL6));
+    }
 
 }
 

@@ -44,7 +44,10 @@ public class Categorie extends Activity {
                         int1.putExtra("position", pos);
                         startActivity(int1);
                     } else if (getIntent().getStringExtra("Versie").equals("speel")) {
-                        //TODO: implementeer speel
+                        Intent int1 = new Intent(Categorie.this, Speel.class);
+                        Integer pos = viewPager.getCurrentItem();
+                        int1.putExtra("position", pos);
+                        startActivity(int1);
                     }
                 }
             });
@@ -64,7 +67,9 @@ public class Categorie extends Activity {
             int1.putExtra("Categorie", Categorie);
             startActivity(int1);
         } else if (getIntent().getStringExtra("Versie").equals("speel")) {
-            //TODO: implementeer speel
+            Intent int1 = new Intent(Categorie.this, Speel.class);
+            int1.putExtra("Categorie", Categorie);
+            startActivity(int1);
         }
     }
 }
