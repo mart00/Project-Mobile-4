@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class SplashActivity extends Activity {
+public class Splash extends Activity {
     private static boolean splashLoaded = false;
 
     @Override
@@ -17,7 +17,7 @@ public class SplashActivity extends Activity {
             int secondsDelayed = 1;
             new Handler().postDelayed(new Runnable() {
                 public void run() {
-                    startActivity(new Intent(SplashActivity.this, SplashActivity.class));
+                    startActivity(new Intent(Splash.this, Splash.class));
                     finish();
                 }
             }, secondsDelayed * 1500);

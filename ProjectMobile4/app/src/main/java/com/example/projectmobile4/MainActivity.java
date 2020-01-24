@@ -12,17 +12,16 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.activity_main);
 
-        Button Oefen=(Button)findViewById(R.id.Oefen);
-        Button Speel=(Button)findViewById(R.id.Speel);
-        Button Over=(Button)findViewById(R.id.Over);
-        Button Score=(Button)findViewById(R.id.Score);
-        Button AddData=(Button)findViewById(R.id.AddData);
+        Button Oefen= findViewById(R.id.Oefen);
+        Button Speel= findViewById(R.id.Speel);
+        Button Over= findViewById(R.id.Over);
+        Button Score= findViewById(R.id.Score);
 
         Oefen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent int1= new Intent(MainActivity.this, CategorieActivity.class);
+                Intent int1= new Intent(MainActivity.this, Categorie.class);
                 String Versie = "oefen";
                 int1.putExtra("Versie", Versie);
                 startActivity(int1);
@@ -32,7 +31,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent int1= new Intent(MainActivity.this, CategorieActivity.class);
+                Intent int1= new Intent(MainActivity.this, Categorie.class);
                 String Versie = "speel";
                 int1.putExtra("Versie", Versie);
                 startActivity(int1);
@@ -42,7 +41,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent int1= new Intent(MainActivity.this, OverActivity.class);
+                Intent int1= new Intent(MainActivity.this, com.example.projectmobile4.Over.class);
                 startActivity(int1);
             }
         });
@@ -50,20 +49,20 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent int1= new Intent(MainActivity.this, ScoreActivity.class);
+                Intent int1= new Intent(MainActivity.this, com.example.projectmobile4.Score.class);
                 startActivity(int1);
             }
         });
     }
     public void Oefen(){
-        Intent goToOefenActivity = new Intent(this, CategorieActivity.class);
+        Intent goToOefenActivity = new Intent(this, Categorie.class);
         goToOefenActivity.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
         String Versie = "oefen";
         goToOefenActivity.putExtra("Versie", Versie);
         startActivity(goToOefenActivity);
     }
     public void Speel(){
-        Intent goToSpeelActivity = new Intent(this, CategorieActivity.class);
+        Intent goToSpeelActivity = new Intent(this, Categorie.class);
         goToSpeelActivity.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
         String Versie = "speel";
         goToSpeelActivity.putExtra("Versie", Versie);

@@ -16,13 +16,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 
-public class ViewPagerAdapterCategorie extends PagerAdapter {
+public class AdapterCategorie extends PagerAdapter {
     static Resources res = null;
     Context context;
     LayoutInflater layoutInflater;
 
-    public ViewPagerAdapterCategorie(Context context) {
-
+    public AdapterCategorie(Context context) {
         this.context = context;
     }
 
@@ -46,16 +45,14 @@ public class ViewPagerAdapterCategorie extends PagerAdapter {
             R.drawable.eten_koekjes,
             R.drawable.fruit_appel,
             R.drawable.groente_doperwten,
+            R.drawable.insecten_bij,
             R.drawable.kleding_trui,
             R.drawable.kleuren_groen,
-            R.drawable.insecten_bij,
             R.drawable.weer_zon
-
     };
     @Override
     public int getCount(){
-        if (categorieNaam == null) return 0;
-        return GalImages.length;
+        return categorieNaam.length;
     }
 
     @Override
@@ -79,7 +76,6 @@ public class ViewPagerAdapterCategorie extends PagerAdapter {
 
         return view;
     }
-
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position,@NonNull Object object){
 
