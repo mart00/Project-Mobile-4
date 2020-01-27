@@ -25,9 +25,6 @@ public class AdapterScore extends PagerAdapter {
         this.score = score;
     }
 
-    public String[] getCategorieNaam() {
-        return categorieNaam;
-    }
     String[] categorieNaam = {
             "dieren01",
             "dieren02",
@@ -72,14 +69,14 @@ public class AdapterScore extends PagerAdapter {
         imageView.setImageResource(GalImages[position]);
 
         TextView textView = view.findViewById(R.id.naamItem);
-        textView.setText(categorieNaam[position]);
+        textView.setText("Categorie: "+categorieNaam[position]);
 
         String[] scores = new String[score.length];
         for (int i = 0; i < score.length; i++){
             scores[i] = score[i];
         }
         TextView textView2 = view.findViewById(R.id.scoreItem);
-        textView2.setText(scores[position]);
+        textView2.setText("Aantal fouten: " +scores[position]);
 
         container.addView(view);
 

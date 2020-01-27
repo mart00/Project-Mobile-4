@@ -3,87 +3,87 @@ package com.example.projectmobile4;
 import android.app.Activity;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 
 import androidx.viewpager.widget.ViewPager;
 
-public class Speel extends Activity {
-    Database thedb;
-    ViewPager viewPager;
-    private Context context;
-    private SQLiteDatabase database;
-    private Sqlite dbHandler;
+        public class Speel extends Activity {
+            Database thedb;
+            ViewPager viewPager;
+            private Context context;
+            private SQLiteDatabase database;
+            private Sqlite dbHandler;
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        Context context = this;
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_speel);
+            @Override
+            public void onCreate(Bundle savedInstanceState) {
+                Context context = this;
+                super.onCreate(savedInstanceState);
+                setContentView(R.layout.activity_speel);
 
-//        AdapterCategorie viewPagerAdapterCategorie = new AdapterCategorie(this);
-//
-//        Integer itemClicked = getIntent().getIntExtra("position",0);
-//        String[] categorieNaam = viewPagerAdapterCategorie.getCategorieNaam();
-//        String categorie = categorieNaam[itemClicked];
-//
-//        Database thedb = new Database(this);
-//        String[] routes = {
-//                thedb.getRoute(categorie,1),
-//                thedb.getRoute(categorie,2),
-//                thedb.getRoute(categorie,3),
-//                thedb.getRoute(categorie,4),
-//                thedb.getRoute(categorie,5),
-//                thedb.getRoute(categorie,6),
-//                thedb.getRoute(categorie,7),
-//                thedb.getRoute(categorie,8),
-//                thedb.getRoute(categorie,9),
-//                thedb.getRoute(categorie,10),
-//                thedb.getRoute(categorie,11),
-//                thedb.getRoute(categorie,12),
-//                thedb.getRoute(categorie,13),
-//                thedb.getRoute(categorie,14),
-//                thedb.getRoute(categorie,15)
-//        };
-//        String[] namen = {
-//                thedb.getNamen(categorie,1),
-//                thedb.getNamen(categorie,2),
-//                thedb.getNamen(categorie,3),
-//                thedb.getNamen(categorie,4),
-//                thedb.getNamen(categorie,5),
-//                thedb.getNamen(categorie,6),
-//                thedb.getNamen(categorie,7),
-//                thedb.getNamen(categorie,8),
-//                thedb.getNamen(categorie,9),
-//                thedb.getNamen(categorie,10),
-//                thedb.getNamen(categorie,11),
-//                thedb.getNamen(categorie,12),
-//                thedb.getNamen(categorie,13),
-//                thedb.getNamen(categorie,14),
-//                thedb.getNamen(categorie,15)
-//        };
-//        String[] amazigh = {
-//                thedb.getAmazigh(categorie,1),
-//                thedb.getAmazigh(categorie,2),
-//                thedb.getAmazigh(categorie,3),
-//                thedb.getAmazigh(categorie,4),
-//                thedb.getAmazigh(categorie,5),
-//                thedb.getAmazigh(categorie,6),
-//                thedb.getAmazigh(categorie,7),
-//                thedb.getAmazigh(categorie,8),
-//                thedb.getAmazigh(categorie,9),
-//                thedb.getAmazigh(categorie,10),
-//                thedb.getAmazigh(categorie,11),
-//                thedb.getAmazigh(categorie,12),
-//                thedb.getAmazigh(categorie,13),
-//                thedb.getAmazigh(categorie,14),
-//                thedb.getAmazigh(categorie,15)
-//        };
-//        viewPager = findViewById(R.id.viewpager);
-//        AdapterSpeel viewpage = new AdapterSpeel(this,routes,namen,amazigh, viewPager);
-//        viewPager.setAdapter(viewpage);
-//        viewPager.setOffscreenPageLimit(14);
-    }
-}
+                AdapterCategorie viewPagerAdapterCategorie = new AdapterCategorie(this);
+                AdapterListView listView = new AdapterListView(this);
+
+                Integer itemClicked = getIntent().getIntExtra("position",0);
+                String[] categorieNaam = viewPagerAdapterCategorie.getCategorieNaam();
+                String categorie = categorieNaam[itemClicked];
+                final String [] talen = listView.getNamen();
+
+                Database thedb = new Database(this);
+                String[] routes = {
+                        thedb.getRoute(categorie,1),
+                        thedb.getRoute(categorie,2),
+                        thedb.getRoute(categorie,3),
+                        thedb.getRoute(categorie,4),
+                        thedb.getRoute(categorie,5),
+                        thedb.getRoute(categorie,6),
+                        thedb.getRoute(categorie,7),
+                        thedb.getRoute(categorie,8),
+                        thedb.getRoute(categorie,9),
+                        thedb.getRoute(categorie,10),
+                        thedb.getRoute(categorie,11),
+                        thedb.getRoute(categorie,12),
+                        thedb.getRoute(categorie,13),
+                        thedb.getRoute(categorie,14),
+                        thedb.getRoute(categorie,15)
+                };
+                String[] namen = {
+                        thedb.getNamen(talen[0],categorie,1),
+                        thedb.getNamen(talen[0],categorie,2),
+                        thedb.getNamen(talen[0],categorie,3),
+                        thedb.getNamen(talen[0],categorie,4),
+                        thedb.getNamen(talen[0],categorie,5),
+                        thedb.getNamen(talen[0],categorie,6),
+                        thedb.getNamen(talen[0],categorie,7),
+                        thedb.getNamen(talen[0],categorie,8),
+                        thedb.getNamen(talen[0],categorie,9),
+                        thedb.getNamen(talen[0],categorie,10),
+                        thedb.getNamen(talen[0],categorie,11),
+                        thedb.getNamen(talen[0],categorie,12),
+                        thedb.getNamen(talen[0],categorie,13),
+                        thedb.getNamen(talen[0],categorie,14),
+                        thedb.getNamen(talen[0],categorie,15)
+                };
+                String[] amazigh = {
+                        thedb.getAmazigh(categorie,1),
+                        thedb.getAmazigh(categorie,2),
+                        thedb.getAmazigh(categorie,3),
+                        thedb.getAmazigh(categorie,4),
+                        thedb.getAmazigh(categorie,5),
+                        thedb.getAmazigh(categorie,6),
+                        thedb.getAmazigh(categorie,7),
+                        thedb.getAmazigh(categorie,8),
+                        thedb.getAmazigh(categorie,9),
+                        thedb.getAmazigh(categorie,10),
+                        thedb.getAmazigh(categorie,11),
+                        thedb.getAmazigh(categorie,12),
+                        thedb.getAmazigh(categorie,13),
+                        thedb.getAmazigh(categorie,14),
+                        thedb.getAmazigh(categorie,15)
+                };
+                viewPager = findViewById(R.id.viewpager);
+                AdapterSpeel viewpage = new AdapterSpeel(this,routes,namen,amazigh, viewPager, categorie);
+                viewPager.setAdapter(viewpage);
+                viewPager.setOffscreenPageLimit(14);
+            }
+        }

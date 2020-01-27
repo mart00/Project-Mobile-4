@@ -1,5 +1,6 @@
 package com.example.projectmobile4;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
@@ -12,6 +13,7 @@ public class Database {
     private SQLiteDatabase database1;
     private Sqlite dbHandler;
     private SqliteScore dbHandler1;
+    String col;
 
     public Database(Context c){
         this.context = c;
@@ -38,38 +40,30 @@ public class Database {
     }
     public String getNamen(String naam, String Tabel, Integer id) {
         Sqlite thedb = new Sqlite(context);
-        String en = "nederlands";
         SQLiteDatabase database = thedb.getWritableDatabase();
         String sql = "SELECT "+ naam +" FROM "+ Tabel +" WHERE ID = "+id;
         Cursor c = database.rawQuery(sql,null );
         c.moveToPosition(0);
-        String col;
-        if (naam == "amazigh"){
-//            col = "COL6";
-            col = Sqlite.COL6;
+
+        if (naam.equals("amazigh")){
+            col = thedb.getCol6();
         }
-        else if (naam == "frans"){
-//            col = "COL7";
-            col = Sqlite.COL7;
+        else if (naam.equals("frans")){
+            col = thedb.getCol7();
         }
-        else if (naam == "duits"){
-//            col = "COL8";
-            col = Sqlite.COL8;
+        else if (naam.equals("duits")){
+            col = thedb.getCol8();
         }
-        else if (naam == "spaans"){
-//            col = "COL9";
-            col = Sqlite.COL9;
+        else if (naam.equals("spaans")){
+            col = thedb.getCol9();
         }
-        else if (naam == "engels"){
-//            col = "COL10";
-            col = thedb.COL10;
+        else if (naam.equals("engels")){
+            col = thedb.getCol10();
         }
         else {
-//            col = "COL3";
             col = thedb.getCol3();
         }
         return c.getString(c.getColumnIndex(col));
-//        return c.getColumnName(1);
     }
     public Integer getAllNamen(String Tabel) {
         Sqlite thedb = new Sqlite(context);
@@ -97,6 +91,13 @@ public class Database {
         Cursor c = database.rawQuery("SELECT score FROM '"+Tabel+"' WHERE id = '"+id+"'", null);
         c.moveToPosition(0);
         return c.getString(c.getColumnIndex(thedb.COL3));
+    }
+    public void setScore(String categorie, int newScore){
+        SqliteScore thedb = new SqliteScore(context);
+        SQLiteDatabase database = thedb.getWritableDatabase();
+        ContentValues cv = new ContentValues();
+        cv.put("score",newScore);
+        database.update("categorieen",cv,"categorie='"+categorie+"'",null);
     }
 }
 

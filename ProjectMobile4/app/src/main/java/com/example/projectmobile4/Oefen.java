@@ -1,14 +1,10 @@
 package com.example.projectmobile4;
 
 import android.content.Context;
-import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -30,10 +26,12 @@ public class Oefen extends AppCompatActivity {
         final Database thedb = new Database(this);
 
         Integer itemClicked = getIntent().getIntExtra("position", 0);
+        String taal = getIntent().getStringExtra("taal");
+
         String[] categorieNaam = adapterCategorie.getCategorieNaam();
         final String categorie = categorieNaam[itemClicked];
         final String[] talenNaam = view.getNamen();
-         String talen = talenNaam[0];
+        String tale;
 
         final String[] routes = new String[thedb.getAllNamen(categorie) + 1];
         for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
@@ -42,7 +40,7 @@ public class Oefen extends AppCompatActivity {
         }
         final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
         for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
-            String da = thedb.getNamen(talen, categorie, i);
+            String da = thedb.getNamen(taal, categorie, i);
             namen[i] = da;
         }
         final String[] amazigh = new String[thedb.getAllNamen(categorie) + 1];
@@ -120,93 +118,93 @@ public class Oefen extends AppCompatActivity {
             }
         });
 
-
-        final String[] itemname = view.getNamen();
-        Integer[] images = view.getImages();
-
-        lis = new AdapterList(this, itemname, images);
-        ListView list;
-
-        list = findViewById(R.id.list);
-        list.setAdapter(lis);
-
-        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0){
-                    final String talenn = talenNaam[0];
-                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
-                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
-                        String da = thedb.getNamen(talenn, categorie, i);
-                        namen[i] = da;
-                    }
-                    Toast.makeText(context, "0", Toast.LENGTH_SHORT).show();
-                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
-                    viewPager = findViewById(R.id.viewpager);
-                    viewPager.setAdapter(viewpage);
-                }
-                else if (position == 1){
-                    final String talenn = talenNaam[1];
-                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
-                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
-                        String da = thedb.getNamen(talenn, categorie, i);
-                        namen[i] = da;
-                    }
-                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
-                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
-                    viewPager = findViewById(R.id.viewpager);
-                    viewPager.setAdapter(viewpage);
-                }
-                else if (position == 2){
-                    final String talenn = talenNaam[2];
-                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
-                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
-                        String da = thedb.getNamen(talenn, categorie, i);
-                        namen[i] = da;
-                    }
-                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
-                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
-                    viewPager = findViewById(R.id.viewpager);
-                    viewPager.setAdapter(viewpage);
-                }
-                else if (position == 3){
-                    final String talenn = talenNaam[3];
-                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
-                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
-                        String da = thedb.getNamen(talenn, categorie, i);
-                        namen[i] = da;
-                    }
-                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
-                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
-                    viewPager = findViewById(R.id.viewpager);
-                    viewPager.setAdapter(viewpage);
-                }
-                else if (position == 4){
-                    final String talenn = talenNaam[4];
-                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
-                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
-                        String da = thedb.getNamen(talenn, categorie, i);
-                        namen[i] = da;
-                    }
-                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
-                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
-                    viewPager = findViewById(R.id.viewpager);
-                    viewPager.setAdapter(viewpage);
-                }
-                else if (position == 5){
-                    final String talenn = talenNaam[5];
-                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
-                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
-                        String da = thedb.getNamen(talenn, categorie, i);
-                        namen[i] = da;
-                    }
-                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
-                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
-                    viewPager = findViewById(R.id.viewpager);
-                    viewPager.setAdapter(viewpage);
-                }
-            }
-        });
+//
+//        final String[] itemname = view.getNamen();
+//        Integer[] images = view.getImages();
+//
+//        lis = new AdapterList(this, itemname, images);
+//        ListView list;
+//
+//        list = findViewById(R.id.list);
+//        list.setAdapter(lis);
+//
+//        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                if (position == 0){
+//                    final String talenn = talenNaam[0];
+//                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
+//                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
+//                        String da = thedb.getNamen(talenn, categorie, i);
+//                        namen[i] = da;
+//                    }
+//                    Toast.makeText(context, "0", Toast.LENGTH_SHORT).show();
+//                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
+//                    viewPager = findViewById(R.id.viewpager);
+//                    viewPager.setAdapter(viewpage);
+//                }
+//                else if (position == 1){
+//                    final String talenn = talenNaam[1];
+//                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
+//                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
+//                        String da = thedb.getNamen(talenn, categorie, i);
+//                        namen[i] = da;
+//                    }
+//                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
+//                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
+//                    viewPager = findViewById(R.id.viewpager);
+//                    viewPager.setAdapter(viewpage);
+//                }
+//                else if (position == 2){
+//                    final String talenn = talenNaam[2];
+//                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
+//                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
+//                        String da = thedb.getNamen(talenn, categorie, i);
+//                        namen[i] = da;
+//                    }
+//                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
+//                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
+//                    viewPager = findViewById(R.id.viewpager);
+//                    viewPager.setAdapter(viewpage);
+//                }
+//                else if (position == 3){
+//                    final String talenn = talenNaam[3];
+//                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
+//                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
+//                        String da = thedb.getNamen(talenn, categorie, i);
+//                        namen[i] = da;
+//                    }
+//                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
+//                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
+//                    viewPager = findViewById(R.id.viewpager);
+//                    viewPager.setAdapter(viewpage);
+//                }
+//                else if (position == 4){
+//                    final String talenn = talenNaam[4];
+//                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
+//                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
+//                        String da = thedb.getNamen(talenn, categorie, i);
+//                        namen[i] = da;
+//                    }
+//                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
+//                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
+//                    viewPager = findViewById(R.id.viewpager);
+//                    viewPager.setAdapter(viewpage);
+//                }
+//                else if (position == 5){
+//                    final String talenn = talenNaam[5];
+//                    final String[] namen = new String[thedb.getAllNamen(categorie) + 1];
+//                    for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
+//                        String da = thedb.getNamen(talenn, categorie, i);
+//                        namen[i] = da;
+//                    }
+//                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show();
+//                    AdapterOefen viewpage = new AdapterOefen(context, routes, namen, mp3, amazigh);
+//                    viewPager = findViewById(R.id.viewpager);
+//                    viewPager.setAdapter(viewpage);
+//                }
+//            }
+//        });
     }
 }
 

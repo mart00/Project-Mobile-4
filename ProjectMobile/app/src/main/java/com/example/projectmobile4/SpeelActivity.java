@@ -80,7 +80,7 @@ public class SpeelActivity extends Activity {
                 thedb.getAmazigh(categorie,15)
         };
         viewPager = findViewById(R.id.viewpager);
-        ViewPagerAdapterSpeel viewpage = new ViewPagerAdapterSpeel(this,routes,namen,amazigh, viewPager);
+        ViewPagerAdapterSpeel viewpage = new ViewPagerAdapterSpeel(this,routes,namen,amazigh, viewPager, categorie);
         viewPager.setAdapter(viewpage);
         viewPager.setOffscreenPageLimit(14);
     }

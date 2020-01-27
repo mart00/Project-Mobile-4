@@ -21,7 +21,9 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
-        android:layout_height="512dp" />
+        android:layout_height="512dp" >
+
+    </androidx.viewpager.widget.ViewPager>
 
     <Button
         android:id="@+id/buttonCategorie"
@@ -29,4 +31,14 @@
         android:layout_height="57dp"
         android:onClick="Select"
         android:text="Selecteer" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="217dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="0dp"
+        />
 </LinearLayout>

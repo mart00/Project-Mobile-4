@@ -50,6 +50,7 @@ public class AdapterCategorie extends PagerAdapter {
             R.drawable.kleuren_groen,
             R.drawable.weer_zon
     };
+
     @Override
     public int getCount(){
         return categorieNaam.length;

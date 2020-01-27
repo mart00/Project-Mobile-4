@@ -1,5 +1,6 @@
 package com.example.projectmobile4;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
@@ -81,6 +82,14 @@ public class DatabaseHandler  {
         Cursor c = database.rawQuery("SELECT score FROM '"+Tabel+"' WHERE id = '"+id+"'", null);
         c.moveToPosition(0);
         return c.getString(c.getColumnIndex(thedb.COL3));
+    }
+
+    public void setScore(String categorie, int newScore){
+        SqliteHandlerScore thedb = new SqliteHandlerScore(context);
+        SQLiteDatabase database = thedb.getWritableDatabase();
+        ContentValues cv = new ContentValues();
+        cv.put("score",newScore);
+        database.update("categorieen",cv,"categorie='"+categorie+"'",null);
     }
 }
 

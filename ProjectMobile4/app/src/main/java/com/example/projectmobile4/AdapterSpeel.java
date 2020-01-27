@@ -25,29 +25,16 @@ public class AdapterSpeel extends PagerAdapter {
     //    private final String[] mp3;
     private final String[] amazigh;
     private final  ViewPager viewPager;
-    public AdapterSpeel(Context context, String[] route, String[] namen, String[] amazigh, ViewPager viewPager) { //String[] mp3
+    private String categorie;
+    public AdapterSpeel(Context context, String[] route, String[] namen, String[] amazigh, ViewPager viewPager, String categorie) { //String[] mp3
         this.context = context;
         this.route = route;
         this.namen = namen;
 //        this.mp3 = mp3;
         this.amazigh = amazigh;
         this.viewPager = viewPager;
-        Database thedb = new Database(context);
-    }
-    String[] categorieNaam = {
-            "dieren01",
-            "dieren02",
-            "eten",
-            "fruit",
-            "groente",
-            "insecten",
-            "kleding",
-            "kleuren",
-            "weer"
-    };
-
-    public String[] getCategorieNaam() {
-        return categorieNaam;
+        this.categorie = categorie;
+        thedb = new Database(context);
     }
 
     int kansen;
@@ -166,6 +153,7 @@ public class AdapterSpeel extends PagerAdapter {
                         destroyItem(container,position-1,view);
                     } else {
                         Toast.makeText(context,"Correct! Dat was de laatste vraag.",Toast.LENGTH_SHORT).show();
+                        thedb.setScore(categorie,fouten);
                     }
                 } else {
                     kansen -= 1;
@@ -191,6 +179,7 @@ public class AdapterSpeel extends PagerAdapter {
                         destroyItem(container,position-1,view);
                     } else {
                         Toast.makeText(context,"Correct! Dat was de laatste vraag.",Toast.LENGTH_SHORT).show();
+                        thedb.setScore(categorie,fouten);
                     }
                 } else {
                     kansen -= 1;
@@ -216,6 +205,7 @@ public class AdapterSpeel extends PagerAdapter {
                         destroyItem(container,position-1,view);
                     } else {
                         Toast.makeText(context,"Correct! Dat was de laatste vraag.",Toast.LENGTH_SHORT).show();
+                        thedb.setScore(categorie,fouten);
                     }
                 } else {
                     kansen -= 1;
@@ -241,6 +231,7 @@ public class AdapterSpeel extends PagerAdapter {
                         destroyItem(container,position-1,view);
                     } else {
                         Toast.makeText(context,"Correct! Dat was de laatste vraag.",Toast.LENGTH_SHORT).show();
+                        thedb.setScore(categorie,fouten);
                     }
                 } else {
                     kansen -= 1;
@@ -266,6 +257,7 @@ public class AdapterSpeel extends PagerAdapter {
                         destroyItem(container,position-1,view);
                     } else {
                         Toast.makeText(context,"Correct! Dat was de laatste vraag.",Toast.LENGTH_SHORT).show();
+                        thedb.setScore(categorie,fouten);
                     }
                 } else {
                     kansen -= 1;
@@ -291,6 +283,7 @@ public class AdapterSpeel extends PagerAdapter {
                         destroyItem(container,position-1,view);
                     } else {
                         Toast.makeText(context,"Correct! Dat was de laatste vraag.",Toast.LENGTH_SHORT).show();
+                        thedb.setScore(categorie,fouten);
                     }
                 } else {
                     kansen -= 1;

@@ -51,10 +51,4 @@ public class SqliteHandlerScore extends SQLiteOpenHelper{
 
 
     }
-
-    public void update(SQLiteDatabase db, int newScore, String currentCategorie){
-        ContentValues cv = new ContentValues();
-        cv.put("score",newScore);
-        db.update("categorieen", cv,"categorie ="+currentCategorie, null);
-    }
 }
