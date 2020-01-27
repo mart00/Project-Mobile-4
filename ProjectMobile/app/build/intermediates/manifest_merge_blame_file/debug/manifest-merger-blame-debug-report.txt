@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.projectmobile4"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:5:5-47:19
+12        android:allowBackup="true"
+12-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\agent\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.projectmobile4.SplashActivity" >
+21-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:12:9-18:20
+21-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:13:13-69
+22            <intent-filter>
+22-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:14:13-17:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:15:17-69
+23-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:15:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:16:17-77
+25-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:16:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:19:9-22:20
+29            android:name="com.example.projectmobile4.MainActivity"
+29-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:20:13-67
+30            android:background="@color/colorPrimaryDark" >
+30-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:21:13-57
+31        </activity>
+32        <activity
+32-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:23:9-26:20
+33            android:name="com.example.projectmobile4.OverActivity"
+33-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:24:13-67
+34            android:background="@color/colorPrimaryDark" >
+34-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:25:13-57
+35        </activity>
+36        <activity
+36-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:27:9-30:20
+37            android:name="com.example.projectmobile4.ScoreActivity"
+37-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:28:13-68
+38            android:background="@color/colorPrimaryDark" >
+38-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:29:13-57
+39        </activity>
+40        <activity
+40-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:31:9-34:20
+41            android:name="com.example.projectmobile4.CategorieActivity"
+41-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:32:13-72
+42            android:background="@color/colorPrimaryDark" >
+42-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:33:13-57
+43        </activity>
+44        <activity
+44-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:35:9-38:20
+45            android:name="com.example.projectmobile4.OefenActivity"
+45-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:36:13-68
+46            android:background="@color/colorPrimaryDark" >
+46-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:37:13-57
+47        </activity>
+48        <activity
+48-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:39:9-42:20
+49            android:name="com.example.projectmobile4.SpeelActivity"
+49-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:40:13-68
+50            android:background="@color/colorPrimaryDark" >
+50-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:41:13-57
+51        </activity>
+52        <activity
+52-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:43:9-46:20
+53            android:name="com.example.projectmobile4.test_database"
+53-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:44:13-68
+54            android:background="@color/colorPrimaryDark" >
+54-->C:\School\Leerjaar 2\Project Mobile\ProjectMobile4\ProjectMobile\app\src\main\AndroidManifest.xml:45:13-57
+55        </activity>
+56    </application>
+57
+58</manifest>
