@@ -4,13 +4,14 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import android.widget.Toast;
 
 public class DatabaseHandler  {
 
     private Context context;
     private SQLiteDatabase database;
+    private SQLiteDatabase database1;
     private SqliteHandeler dbHandler;
+    private SqliteHandlerScore dbHandler1;
 
     public DatabaseHandler(Context c){
         this.context = c;
@@ -20,6 +21,8 @@ public class DatabaseHandler  {
     public DatabaseHandler open() throws SQLException{
         this.dbHandler = new SqliteHandeler(this.context);
         this.database = this.dbHandler.getWritableDatabase();
+        this.dbHandler1 = new SqliteHandlerScore(this.context);
+        this.database1 = this.dbHandler1.getWritableDatabase();
         return this;
     }
     public void close(){
@@ -71,6 +74,13 @@ public class DatabaseHandler  {
         Cursor c = database.rawQuery("SELECT amazigh FROM '"+Tabel+"' WHERE id = '"+id+"'", null);
         c.moveToPosition(0);
         return c.getString(c.getColumnIndex(thedb.COL6));
+    }
+    public String getScore(String Tabel, Integer id) {
+        SqliteHandlerScore thedb = new SqliteHandlerScore(context);
+        SQLiteDatabase database = thedb.getWritableDatabase();
+        Cursor c = database.rawQuery("SELECT score FROM '"+Tabel+"' WHERE id = '"+id+"'", null);
+        c.moveToPosition(0);
+        return c.getString(c.getColumnIndex(thedb.COL3));
     }
 }
 

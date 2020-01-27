@@ -3,6 +3,7 @@ package com.example.projectmobile4;
 import android.app.Activity;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import androidx.viewpager.widget.ViewPager;
@@ -78,8 +79,9 @@ public class SpeelActivity extends Activity {
                 thedb.getAmazigh(categorie,14),
                 thedb.getAmazigh(categorie,15)
         };
-        AdapterSpeel viewpage = new AdapterSpeel(this,routes,namen,amazigh);
         viewPager = findViewById(R.id.viewpager);
+        ViewPagerAdapterSpeel viewpage = new ViewPagerAdapterSpeel(this,routes,namen,amazigh, viewPager);
         viewPager.setAdapter(viewpage);
+        viewPager.setOffscreenPageLimit(14);
     }
 }

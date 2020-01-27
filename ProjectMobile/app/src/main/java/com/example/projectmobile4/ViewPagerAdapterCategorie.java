@@ -35,9 +35,9 @@ public class ViewPagerAdapterCategorie extends PagerAdapter {
         "eten",
         "fruit",
         "groente",
-        "insecten",
         "kleding",
         "kleuren",
+        "insecten",
         "weer"
     };
     private int[] GalImages = new int[] {

@@ -12,16 +12,20 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 public class AdapterOefen extends PagerAdapter {
+
     private LayoutInflater layoutInflater;
     Context context;
     private final String[] route;
     private final String[] namen;
     private final String[] mp3;
-    public AdapterOefen(Context context, String[] route, String[] namen, String[] mp3 ) {
+    private final String[] amazigh;
+
+    public AdapterOefen(Context context, String[] route, String[] namen, String[] mp3, String[] amazigh ) {
         this.context = context;
         this.route = route;
         this.namen = namen;
         this.mp3 = mp3;
+        this.amazigh = amazigh;
         Database thedb = new Database(context);
     }
     String[] categorieNaam = {
@@ -68,7 +72,11 @@ public class AdapterOefen extends PagerAdapter {
         for (int i = 1; i < namen.length; i++){
             namenn[i] = namen[i];
         }
-        textView.setText(namenn[postition+1]);
+        String[] amazigs = new String[amazigh.length];
+        for (int i = 1; i < amazigh.length; i++){
+            amazigs[i] = amazigh[i];
+        }
+        textView.setText(namenn[postition+1] +" - "+ amazigs[postition+1]);
         container.addView(view);
 
         return view;

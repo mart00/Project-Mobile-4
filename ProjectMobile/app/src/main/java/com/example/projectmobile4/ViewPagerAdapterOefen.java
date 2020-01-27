@@ -58,7 +58,7 @@ public class ViewPagerAdapterOefen extends PagerAdapter {
 
     @NonNull
     @Override
-    public Object instantiateItem(@NonNull ViewGroup container, int postition) {
+    public Object instantiateItem(@NonNull ViewGroup container, int position) {
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(R.layout.image_view, null);
 
@@ -74,17 +74,17 @@ public class ViewPagerAdapterOefen extends PagerAdapter {
                 System.out.println("Could not parse " + nfe);
             }
          }
-        imageView.setImageResource(routes[postition]);
+        imageView.setImageResource(routes[position]);
 
         TextView textView = view.findViewById(R.id.naamItem);
         String[] namenn = new String[namen.length];
         for (int i = 0; i < namen.length; i++){
             namenn[i] = namen[i];
         }
-        textView.setText(namenn[postition]);
+        textView.setText(namenn[position]);
 
 //        Button btn_play = view.findViewById(R.id.mp3);
-//        final String song = mp3[postition];
+//        final String song = mp3[position];
 //        btn_play.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
