@@ -71,6 +71,12 @@ public class Database {
         Cursor c = database.rawQuery("SELECT nederlands FROM '"+Tabel+"'", null);
         return c.getCount();
     }
+    public Integer getAllNamen2(String Tabel) {
+        SqliteScore thedb = new SqliteScore(context);
+        SQLiteDatabase database = thedb.getWritableDatabase();
+        Cursor c = database.rawQuery("SELECT score FROM '"+Tabel+"'", null);
+        return c.getCount();
+    }
     public String getMp3(String Tabel, Integer id) {
         Sqlite thedb = new Sqlite(context);
         SQLiteDatabase database = thedb.getWritableDatabase();
@@ -92,11 +98,25 @@ public class Database {
         c.moveToPosition(0);
         return c.getString(c.getColumnIndex(thedb.COL3));
     }
+    public String getSucces(String Tabel, Integer id) {
+        SqliteScore thedb = new SqliteScore(context);
+        SQLiteDatabase database = thedb.getWritableDatabase();
+        Cursor c = database.rawQuery("SELECT successen FROM '"+Tabel+"' WHERE id = '"+id+"'", null);
+        c.moveToPosition(0);
+        return c.getString(c.getColumnIndex(thedb.COL4));
+    }
     public void setScore(String categorie, int newScore){
         SqliteScore thedb = new SqliteScore(context);
         SQLiteDatabase database = thedb.getWritableDatabase();
         ContentValues cv = new ContentValues();
         cv.put("score",newScore);
+        database.update("categorieen",cv,"categorie='"+categorie+"'",null);
+    }
+    public void setSuccessen(String categorie, int newScore){
+        SqliteScore thedb = new SqliteScore(context);
+        SQLiteDatabase database = thedb.getWritableDatabase();
+        ContentValues cv = new ContentValues();
+        cv.put("successen",newScore);
         database.update("categorieen",cv,"categorie='"+categorie+"'",null);
     }
 }

@@ -32,7 +32,6 @@ public class AdapterListView extends PagerAdapter{
             R.drawable.duits,
             R.drawable.spaans,
             R.drawable.engels
-
     };
     public Integer[] getImages() {
         return images;
@@ -53,8 +52,7 @@ public class AdapterListView extends PagerAdapter{
 
     @Override
     public int getCount() {
-        if (namen == null) return 0;
-        return images.length;
+        return 6;
     }
 
     @Override

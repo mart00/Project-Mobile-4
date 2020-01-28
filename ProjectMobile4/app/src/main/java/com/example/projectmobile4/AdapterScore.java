@@ -18,11 +18,13 @@ public class AdapterScore extends PagerAdapter {
     Context context;
     LayoutInflater layoutInflater;
     private final String[] score;
+    private final String[] succes;
 
-    public AdapterScore(Context context, String[] score) {
+    public AdapterScore(Context context, String[] score, String[] succes) {
 
         this.context = context;
         this.score = score;
+        this.succes = succes;
     }
 
     String[] categorieNaam = {
@@ -76,7 +78,7 @@ public class AdapterScore extends PagerAdapter {
             scores[i] = score[i];
         }
         TextView textView2 = view.findViewById(R.id.scoreItem);
-        textView2.setText("Aantal fouten: " +scores[position]);
+        textView2.setText("Aantal fouten: " +scores[position+1] + " - " + "Aantal successen: "+succes[position+1]);
 
         container.addView(view);
 

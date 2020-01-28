@@ -15,19 +15,18 @@ public class Score extends Activity {
         this.setContentView(R.layout.activity_score);
         thedb = new Database(this);
 
+        String[] score = new String[thedb.getAllNamen2("categorieen") +1];
+            for (int i = 1; i <= thedb.getAllNamen2("categorieen"); i++) {
+                String da = thedb.getScore("categorieen", i);
+                score[i] = da;
+            }
 
-        String[] score = {
-                thedb.getScore("categorieen",1),
-                thedb.getScore("categorieen",2),
-                thedb.getScore("categorieen",3),
-                thedb.getScore("categorieen",4),
-                thedb.getScore("categorieen",5),
-                thedb.getScore("categorieen",6),
-                thedb.getScore("categorieen",7),
-                thedb.getScore("categorieen",8),
-                thedb.getScore("categorieen",9)
-        };
-        AdapterScore viewPagerAdapterScore = new AdapterScore(this,score);
+        String[] succes = new String[thedb.getAllNamen2("categorieen") +1];
+        for (int i = 1; i <= thedb.getAllNamen2("categorieen"); i++) {
+            String da = thedb.getSucces("categorieen", i);
+            succes[i] = da;
+        }
+        AdapterScore viewPagerAdapterScore = new AdapterScore(this,score,succes);
         listViewPosition = getIntent().getIntExtra("listViewPosition", 0);
         viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(viewPagerAdapterScore);

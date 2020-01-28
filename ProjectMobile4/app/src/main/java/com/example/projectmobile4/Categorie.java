@@ -133,7 +133,7 @@ public class Categorie extends Activity {
             final int position = viewPager.getCurrentItem();
             TextView displayTextView = findViewById(R.id.versie);
 
-            displayTextView.setText(sessieVersie);
+//            displayTextView.setText(sessieVersie);
 
             Button buttonCategorie = findViewById(R.id.buttonCategorie);
 
@@ -163,20 +163,5 @@ public class Categorie extends Activity {
             finish();
         }
     }
-
-//    public void Select(){
-//        AdapterCategorie adapterCategorie = new AdapterCategorie(this);
-//        final String[] Categorie = adapterCategorie.categorieNaam;
-//        if(getIntent().getStringExtra("Versie").equals("oefen")) {
-//            Intent int1 = new Intent(com.example.projectmobile4.Categorie.this, Oefen.class);
-//            int1.putExtra("Categorie", Categorie);
-//            startActivity(int1);
-//        } else if (getIntent().getStringExtra("Versie").equals("speel")) {
-//            Intent int1 = new Intent(Categorie.this, Speel.class);
-//            int1.putExtra("Categorie", Categorie);
-//            startActivity(int1);
-//        }
-//    }
-
 }
 

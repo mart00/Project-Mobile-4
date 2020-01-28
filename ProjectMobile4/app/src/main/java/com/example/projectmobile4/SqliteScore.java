@@ -7,11 +7,12 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class SqliteScore extends SQLiteOpenHelper{
 
-    private static final int DATABASE_VERSION = 3;
+    private static final int DATABASE_VERSION = 5;
     protected static final String DATABASE_NAME = "scores";
     static final String COL1 = "ID";
     static final String COL2 = "categorie";
     static final String COL3 = "score";
+    static final String COL4 = "successen";
     private static SQLiteDatabase instance;
 
     public SqliteScore(Context context){
@@ -38,16 +39,16 @@ public class SqliteScore extends SQLiteOpenHelper{
 
         //categorien aanmaken
         db.execSQL("CREATE TABLE IF NOT EXISTS categorieen" + "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                "categorie TEXT, " + " score INT ) ");
-        db.execSQL("INSERT INTO categorieen (categorie, score) VALUES ('dieren01', 0)");
-        db.execSQL("INSERT INTO categorieen (categorie, score) VALUES ('dieren02', 1)");
-        db.execSQL("INSERT INTO categorieen (categorie, score) VALUES ('eten', 2)");
-        db.execSQL("INSERT INTO categorieen (categorie, score) VALUES ('fruit', 3)");
-        db.execSQL("INSERT INTO categorieen (categorie, score) VALUES ('groente', 4)");
-        db.execSQL("INSERT INTO categorieen (categorie, score) VALUES ('kleding', 5)");
-        db.execSQL("INSERT INTO categorieen (categorie, score) VALUES ('kleuren', 6)");
-        db.execSQL("INSERT INTO categorieen (categorie, score) VALUES ('insecten', 7)");
-        db.execSQL("INSERT INTO categorieen (categorie, score) VALUES ('weer', 8)");
+                "categorie TEXT, " + " score INT, " + " successen INT) ");
+        db.execSQL("INSERT INTO categorieen (categorie, score, successen) VALUES ('dieren01', 0, 0)");
+        db.execSQL("INSERT INTO categorieen (categorie, score, successen) VALUES ('dieren02', 0, 0)");
+        db.execSQL("INSERT INTO categorieen (categorie, score, successen) VALUES ('eten', 0, 0)");
+        db.execSQL("INSERT INTO categorieen (categorie, score, successen) VALUES ('fruit', 0, 0)");
+        db.execSQL("INSERT INTO categorieen (categorie, score, successen) VALUES ('groente', 0, 0)");
+        db.execSQL("INSERT INTO categorieen (categorie, score, successen) VALUES ('kleding', 0, 0)");
+        db.execSQL("INSERT INTO categorieen (categorie, score, successen) VALUES ('kleuren', 0, 0)");
+        db.execSQL("INSERT INTO categorieen (categorie, score, successen) VALUES ('insecten', 0, 0)");
+        db.execSQL("INSERT INTO categorieen (categorie, score, successen) VALUES ('weer', 0, 0)");
 
 
     }

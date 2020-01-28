@@ -20,6 +20,7 @@ public class AdapterSpeel extends PagerAdapter {
     private LayoutInflater layoutInflater;
     public Database thedb;
     Context context;
+    public Speel activity;
     private final String[] route;
     private final String[] namen;
     //    private final String[] mp3;
@@ -68,7 +69,7 @@ public class AdapterSpeel extends PagerAdapter {
 
         int[] routes = new int[route.length];
         int resourceId;
-        for (int i = 0; i < route.length; i++){
+        for (int i = 1; i < route.length; i++){
             try {
                 resourceId = context.getResources().getIdentifier(route[i],null,context.getPackageName());
                 routes[i] = resourceId;
@@ -79,31 +80,31 @@ public class AdapterSpeel extends PagerAdapter {
 
         final int correct = ThreadLocalRandom.current().nextInt(0, 6);
 
-        int img0 = routes[rr(routes,position)];
-        int img1 = routes[rr(routes,position)];
-        int img2 = routes[rr(routes,position)];
-        int img3 = routes[rr(routes,position)];
-        int img4 = routes[rr(routes,position)];
-        int img5 = routes[rr(routes,position)];
+        int img0 = routes[rr(routes,position+1)];
+        int img1 = routes[rr(routes,position+1)];
+        int img2 = routes[rr(routes,position+1)];
+        int img3 = routes[rr(routes,position+1)];
+        int img4 = routes[rr(routes,position+1)];
+        int img5 = routes[rr(routes,position+1)];
 
         switch (correct){
             case 0:
-                img0 = routes[position];
+                img0 = routes[position+1];
                 break;
             case 1:
-                img1 = routes[position];
+                img1 = routes[position+1];
                 break;
             case 2:
-                img2 = routes[position];
+                img2 = routes[position+1];
                 break;
             case 3:
-                img3 = routes[position];
+                img3 = routes[position+1];
                 break;
             case 4:
-                img4 = routes[position];
+                img4 = routes[position+1];
                 break;
             default:
-                img5 = routes[position];
+                img5 = routes[position+1];
         }
 
         imageView0.setImageResource(img0);
@@ -115,10 +116,10 @@ public class AdapterSpeel extends PagerAdapter {
 
         TextView textView = view.findViewById(R.id.naamItem);
         String[] namenn = new String[amazigh.length];
-        for (int i = 0; i < amazigh.length; i++){
+        for (int i = 1; i < amazigh.length; i++){
             namenn[i] = amazigh[i];
         }
-        textView.setText(namenn[position]);
+        textView.setText(namenn[position+1]);
 
 //        Button btn_play = view.findViewById(R.id.mp3);
 //        final String song = mp3[position];
