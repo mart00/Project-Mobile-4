@@ -19,6 +19,15 @@ public class Sqlite extends SQLiteOpenHelper{
      static final String COL9 = "spaans";
      static final String COL10 = "engels";
 
+     private static Database mInstance = null;
+
+    public static Database getInstance(Context c){
+        if (mInstance == null) {
+            mInstance = new Database(c.getApplicationContext());
+        }
+        return mInstance;
+
+    }
     public Sqlite(Context context){
         super(context, DATABASE_NAME, null,  DATABASE_VERSION);
     }

@@ -17,11 +17,12 @@ public class AdapterScore extends PagerAdapter {
     static Resources res = null;
     Context context;
     LayoutInflater layoutInflater;
-    private final String[] score;
+    private final Integer[] score;
     private final String[] succes;
+    private final String categorie;
 
-    public AdapterScore(Context context, String[] score, String[] succes) {
-
+    public AdapterScore(Context context, Integer[] score, String[] succes, String categorie) {
+        this.categorie = categorie;
         this.context = context;
         this.score = score;
         this.succes = succes;
@@ -38,6 +39,9 @@ public class AdapterScore extends PagerAdapter {
             "insecten",
             "weer"
     };
+    public String[] getCategorieNaam() {
+        return categorieNaam;
+    }
     private int[] GalImages = new int[] {
             R.drawable.dieren01_kat,
             R.drawable.dieren02_schildpad,
@@ -64,6 +68,7 @@ public class AdapterScore extends PagerAdapter {
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position){
+        Database thedb = new Database(context);
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(R.layout.image_view_score,null);
 
@@ -73,12 +78,9 @@ public class AdapterScore extends PagerAdapter {
         TextView textView = view.findViewById(R.id.naamItem);
         textView.setText("Categorie: "+categorieNaam[position]);
 
-        String[] scores = new String[score.length];
-        for (int i = 0; i < score.length; i++){
-            scores[i] = score[i];
-        }
         TextView textView2 = view.findViewById(R.id.scoreItem);
-        textView2.setText("Aantal fouten: " +scores[position+1] + " - " + "Aantal successen: "+succes[position+1]);
+        String text = "Aantal fouten: " +thedb.getScore(position+1)+" - " + "Aantal successen: "+thedb.getSucces(categorie);
+        textView2.setText(text);
 
         container.addView(view);
 

@@ -1,7 +1,9 @@
 package com.example.projectmobile4;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
+import android.widget.Adapter;
 
 import androidx.viewpager.widget.ViewPager;
 
@@ -11,22 +13,22 @@ public class Score extends Activity {
     int listViewPosition;
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        Context context = this;
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.activity_score);
-        thedb = new Database(this);
+        thedb = new Database(context);
 
-        String[] score = new String[thedb.getAllNamen2("categorieen") +1];
-            for (int i = 1; i <= thedb.getAllNamen2("categorieen"); i++) {
-                String da = thedb.getScore("categorieen", i);
-                score[i] = da;
-            }
+        AdapterCategorie viewPagerAdapterCategorie = new AdapterCategorie(this);
+        String[] categorieNaam = viewPagerAdapterCategorie.getCategorieNaam();
+        String categorie = categorieNaam[listViewPosition];
 
-        String[] succes = new String[thedb.getAllNamen2("categorieen") +1];
-        for (int i = 1; i <= thedb.getAllNamen2("categorieen"); i++) {
-            String da = thedb.getSucces("categorieen", i);
-            succes[i] = da;
-        }
-        AdapterScore viewPagerAdapterScore = new AdapterScore(this,score,succes);
+        Integer[] score = new Integer[1];
+        score[0] = thedb.getScore(listViewPosition+1);
+
+        String[] succes = new String[1];
+        succes[0] = thedb.getSucces(categorie);
+
+        AdapterScore viewPagerAdapterScore = new AdapterScore(this,score,succes,categorie);
         listViewPosition = getIntent().getIntExtra("listViewPosition", 0);
         viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(viewPagerAdapterScore);

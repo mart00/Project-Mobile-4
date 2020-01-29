@@ -13,7 +13,6 @@ public class SqliteScore extends SQLiteOpenHelper{
     static final String COL2 = "categorie";
     static final String COL3 = "score";
     static final String COL4 = "successen";
-    private static SQLiteDatabase instance;
 
     public SqliteScore(Context context){
         super(context, DATABASE_NAME, null,  DATABASE_VERSION);
@@ -26,6 +25,25 @@ public class SqliteScore extends SQLiteOpenHelper{
         insert(db);
 
     }
+//    public void update(Context context,int newScore, String currentCategorie)
+//    {
+//
+//        SqliteScore thedb = new SqliteScore(context);
+//        ContentValues args = new ContentValues();
+//        args.put("score", newScore);
+////        args.put(KEY_ADDRESS, address);
+//         thedb.update(context, newScore, "categorie = " +currentCategorie);
+//         thedb.close();
+//    }
+//    public void updates(Context context,int newScore, String currentCategorie)
+//    {
+//        SqliteScore thedb = new SqliteScore(context);
+//        ContentValues args = new ContentValues();
+//        args.put("successen", newScore);
+////        args.put(KEY_ADDRESS, address);
+//        thedb.update(context, newScore, "categorie = " +currentCategorie);
+//        thedb.close();
+//    }
     @Override
 
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion){
@@ -51,11 +69,5 @@ public class SqliteScore extends SQLiteOpenHelper{
         db.execSQL("INSERT INTO categorieen (categorie, score, successen) VALUES ('weer', 0, 0)");
 
 
-    }
-
-    public void update(SQLiteDatabase db, int newScore, String currentCategorie){
-        ContentValues cv = new ContentValues();
-        cv.put("score",newScore);
-        db.update("categorieen", cv,"categorie ="+currentCategorie, null);
     }
 }

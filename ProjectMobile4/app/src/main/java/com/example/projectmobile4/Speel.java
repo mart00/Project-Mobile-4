@@ -105,7 +105,7 @@ public class Speel extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        Context context = this;
+        final Context context = this;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_speel);
 
@@ -114,6 +114,7 @@ public class Speel extends Activity {
         Integer itemClicked = getIntent().getIntExtra("position",0);
         String[] categorieNaam = viewPagerAdapterCategorie.getCategorieNaam();
         String categorie = categorieNaam[itemClicked];
+        int categorieId = getResources().getIdentifier("categorie","array",categorie);
         String talen = "amazigh";
 
         Database thedb = new Database(this);
@@ -132,9 +133,64 @@ public class Speel extends Activity {
             String da = thedb.getAmazigh(categorie, i);
             amazigh[i] = da;
         }
+        final String[] mp3 = new String[thedb.getAllNamen(categorie) + 1];
+        for (int i = 1; i <= thedb.getAllNamen(categorie); i++) {
+            String da = thedb.getMp3(categorie, i);
+            mp3[i] = da;
+        }
+        final int[] mp3s = new int[mp3.length];
         viewPager = findViewById(R.id.viewpager);
-        AdapterSpeel viewpage = new AdapterSpeel(this,routes,namen,amazigh, viewPager, categorie);
+        final AdapterSpeel viewpage = new AdapterSpeel(this,routes,namen,amazigh,mp3, viewPager, categorie, categorieId);
         viewPager.setAdapter(viewpage);
         viewPager.setOffscreenPageLimit(14);
+//        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+//            boolean first = true;
+//
+//            public void onPageScrollStateChanged(int state) {
+//            }
+//
+//            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+//                if (first && positionOffset == 0 && positionOffsetPixels == 0) {
+//                    onPageSelected(0);
+//                    first = false;
+//                }
+//            }
+//
+//            public void onPageSelected(int position) {
+//                switch (position) {
+//                    case 0:
+//                        for (int i = 1; i < mp3.length; i++) {
+//                            try {
+//                                mp3s[i] = context.getResources().getIdentifier(mp3[i], "raw", context.getPackageName());
+//                            } catch (NumberFormatException nfe) {
+//                                System.out.println("Could not parse " + nfe);
+//                            }
+//                        }
+//                        int i = position;
+//                        MediaPlayer mp;
+//                        mp = MediaPlayer.create(context, mp3s[position + 1]);
+//                        mp.start();
+//                        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+//                            @Override
+//                            public void onCompletion(MediaPlayer mp) {
+//                                mp.release();
+//                            }
+//                        });
+//                        break;
+//
+//                    default:
+//                        int correct = viewpage.getdoot();
+//                        MediaPlayer mpp;
+//                        mp = MediaPlayer.create(context, mp3s[correct]);
+//                        mp.start();
+//                        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+//                        @Override
+//                        public void onCompletion(MediaPlayer mp) {
+//                            mp.release();
+//                        }
+//                    });
+//                }
+//            }
+//        });
     }
 }

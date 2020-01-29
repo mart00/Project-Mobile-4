@@ -91,33 +91,38 @@ public class Database {
         c.moveToPosition(0);
         return c.getString(c.getColumnIndex(thedb.COL6));
     }
-    public String getScore(String Tabel, Integer id) {
+    public Integer getScore(int id) {
         SqliteScore thedb = new SqliteScore(context);
         SQLiteDatabase database = thedb.getWritableDatabase();
-        Cursor c = database.rawQuery("SELECT score FROM '"+Tabel+"' WHERE id = '"+id+"'", null);
+        Cursor c = database.rawQuery("SELECT score FROM categorieen WHERE id = '"+id+"'", null);
         c.moveToPosition(0);
-        return c.getString(c.getColumnIndex(thedb.COL3));
+        return c.getInt(c.getColumnIndex(thedb.COL3));
     }
-    public String getSucces(String Tabel, Integer id) {
-        SqliteScore thedb = new SqliteScore(context);
-        SQLiteDatabase database = thedb.getWritableDatabase();
-        Cursor c = database.rawQuery("SELECT successen FROM '"+Tabel+"' WHERE id = '"+id+"'", null);
-        c.moveToPosition(0);
-        return c.getString(c.getColumnIndex(thedb.COL4));
-    }
-    public void setScore(String categorie, int newScore){
+    public boolean setScore(int id, int newScore){
         SqliteScore thedb = new SqliteScore(context);
         SQLiteDatabase database = thedb.getWritableDatabase();
         ContentValues cv = new ContentValues();
         cv.put("score",newScore);
-        database.update("categorieen",cv,"categorie='"+categorie+"'",null);
+        database.update("categorieen",cv,"id = "+id,null);
+        return true;
     }
-    public void setSuccessen(String categorie, int newScore){
+    public String getSucces(String categorie) {
+        SqliteScore thedb = new SqliteScore(context);
+        SQLiteDatabase database = thedb.getWritableDatabase();
+        Cursor c = database.rawQuery("SELECT successen FROM categorieen WHERE categorie = '"+categorie+"'", null);
+        c.moveToPosition(0);
+        return c.getString(c.getColumnIndex(thedb.COL4));
+    }
+
+    public boolean setSuccessen(String categorie, int id, int newScore){
+        String doot = Integer.toString(id);
         SqliteScore thedb = new SqliteScore(context);
         SQLiteDatabase database = thedb.getWritableDatabase();
         ContentValues cv = new ContentValues();
         cv.put("successen",newScore);
-        database.update("categorieen",cv,"categorie='"+categorie+"'",null);
+        database.update("categorieen",cv,"categorie = ? AND id = ?",new String[]{categorie});
+        return true;
     }
+
 }
 
